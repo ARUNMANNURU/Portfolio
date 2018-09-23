@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import logo from '/Users/ArunMannuru/Desktop/ReactPortfolio/react-portfolio/src/assets/MSULib.gif';
-import { HashLink as Link } from 'react-router-hash-link';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 

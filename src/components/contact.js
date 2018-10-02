@@ -13,8 +13,7 @@ class Contact extends Component {
             <img
               src={logo}
               alt="avatar"
-              style={{height: '200px'}}
-               />
+              style={{height: '200px'}}/>
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
              A self-motivated programmer with academic coding experience, having experience in Java, J2EE technologies, Object Oriented Programming,mysql,Unix shell scripting , Data structures & algorithms and Design Patterns.
              A team player with good communication skills, fast learner to new technologies and concepts. Willing to contribute skills and enthusiasm to the team.
@@ -32,7 +31,7 @@ class Contact extends Component {
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '27px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     mannuruarun@outlook.com
                   </ListItemContent>

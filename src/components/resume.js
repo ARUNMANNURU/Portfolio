@@ -12,22 +12,10 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
-              <img src={logo} alt="avatar" style={{height: '175px',border: '1px',solid: '#ddd',padding: '5px',borderRadius:'4px'}}/>
+              <img src={logo} alt="avatar" style={{height: '175px',border: '1px',solid: '#ddd',padding: '5px',borderRadius:'50'}}/>
             </div>
-            <h4 style={{textAlign: 'center',paddingTop:'0px'}}>Arun Mannuru</h4>
-            <h6 style={{color: 'grey',textAlign: 'center'}}>Software Developer</h6>
-            <hr style={{borderTop: '2px solid #833fb2', width: 'automated', borderAlign:'center'}}/>
-            <p>
-            <span>A self-motivated programmer with academic coding experience, having experience in Java, J2EE technologies, Object Oriented Programming,mysql,Unix shell scripting , Data structures & algorithms and Design Patterns.
-            A team player with good communication skills, fast learner to new technologies and concepts. Willing to contribute skills and enthusiasm to the team.</span>
-            </p>
-            <hr style={{borderTop: '3px solid #833fb2', width: 'automated',boarderAlign:'center'}}/>
-            <h5><b>Address</b></h5>
-            1261 Lakeside Drive <br/> Sunnyvale, CA 94085<br/>
-            <b>Ph#</b>(618)604-6499<br/>
-            <b>Email:</b>mannuruarun@outlook.com<br/>
-            <b>Web:</b>www.arunmannuru.com<br/>
-            <hr style={{borderTop: '3px solid #833fb2', width: 'automated'}}/>
+            <h4 style={{textAlign: 'center',paddingTop:'1px'}}>Arun Mannuru</h4>
+            <h6 style={{color: 'grey',textAlign: 'center',paddingTop:'1px'}}>Software Developer</h6>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h4>Accomplishments</h4>

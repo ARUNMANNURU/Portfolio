@@ -19,28 +19,28 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>JAVA | HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>JAVA | HTML/CSS | Bootstrap | JavaScript | React | React Native | Spring | Oracle | Cassandra</p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="www.linkedin.com/in/arunmannuru" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/arunmannuru" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="www.github.com/arunmannurum" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.github.com/arunmannuru" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          {/* Twitter */}
+          <a href="https://twitter.com/arunm057" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-twitter" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          {/* instagram */}
+          <a href="https://www.instagram.com/arun_mannuru" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-instagram" aria-hidden="true" />
           </a>
 
         </div>

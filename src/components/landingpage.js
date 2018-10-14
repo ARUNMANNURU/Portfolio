@@ -11,12 +11,10 @@ class Landing extends Component {
             <img
               src={logo}
               alt="avatar"
-              className="avatar-img"
-              />
+              className="avatar-img"/>
 
             <div className="banner-text">
               <h1>Full Stack Java Developer</h1>
-
             <hr/>
 
           <p>JAVA | HTML/CSS | Bootstrap | JavaScript | React | React Native | Spring | Oracle | Cassandra</p>
@@ -38,7 +36,7 @@ class Landing extends Component {
             <i className="fa fa-twitter" aria-hidden="true" />
           </a>
 
-          {/* instagram */}
+          {/* Instagram */}
           <a href="https://www.instagram.com/arun_mannuru" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-instagram" aria-hidden="true" />
           </a>

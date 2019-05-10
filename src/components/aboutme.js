@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '/Users/ArunMannuru/Desktop/ReactPortfolio/react-portfolio/src/images/IMG_6275.jpg'
+import logo from './IMG_6275.jpg'
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 class About extends Component {
@@ -21,11 +21,11 @@ class About extends Component {
                   <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
             	     <h5>WHO I AM</h5><hr/>
                     I’m an avid programmer, passionate about code, design, startups and technology. I like science, travelling and films.
-                  </p>	
+                  </p>
                   <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
                      <h5>WORK</h5><hr/>
                       I'm working as Full Stack Java Developer at Apple Inc.
-                  </p>  
+                  </p>
                   <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
                      <h5>MENTORING</h5><hr/>
                       I'm also a mentor on SDE SKILLS where I either teach algorithms and data structures or I help users debug, fix and refactor their code.
@@ -44,4 +44,4 @@ class About extends Component {
     )
   }
 }
-export default About; 
+export default About;

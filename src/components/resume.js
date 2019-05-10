@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import logo from '/Users/ArunMannuru/Desktop/ReactPortfolio/react-portfolio/src/images/IMG_6275.jpg'
+import logo from './IMG_6275.jpg'
 
 class Resume extends Component {
   render() {
@@ -48,14 +48,21 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h4>Experience</h4>
-              <Experience startMonth="March" startYear={2018} endMonth="Present" companyName="Apple Inc" jobName="Java Developer"/>
+              <Experience startMonth="October" startYear={2018} endMonth="Present" companyName="Walmart Inc" jobName="Software Engineer 2"/>
+              <ul>
+                <li>Working for Supply Chain and logistics team to build load Builder application for Walmart Associates.</li>
+                <li>Application helps Walmart Associates to track the Purchase Order status and optimize the trailer utilization.</li>
+                <li>Building application using Spring Boot, Spring security, JPA and MySQL database, React JS</li>
+                <li>Deploying applications on Azure Cloud and using Azure services to monitor the application performance.</li>
+              </ul>
+              <Experience startMonth="September" startYear={2017} endMonth="October" endYear={2018} companyName="Apple Inc" jobName="Java Developer"/>
               <ul>
                 <li>Developing back-end of application using Java Spring framework for Radar 2.0 application.</li>
                 <li>Using Oracle stored procedures to migrate database to cassandra databases.</li>
                 <li>Writing automated test scripts using Curl and Unix.</li>
                 <li>Developing Restful web services using Jersey Implementation to expose the APIs.</li>
               </ul>
-              <Experience startMonth="March" startYear={2017} endMonth="Febrauary" endYear={2018} companyName="Farbinder Inc" jobName="Full-Stack Java Developer"/>
+              <Experience startMonth="March" startYear={2017} endMonth="August" endYear={2017} companyName="Farbinder Inc" jobName="Full-Stack Java Developer"/>
               <ul>
               <li>Developing native web, Android applications for Farbinder.</li>
               <li>Using React Native to design UI screens for the Android application.</li>

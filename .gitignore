@@ -1,2 +1,10 @@
-
 Portfolio
+*awscli-bundle
+*build
+*node_module
+*public
+*awscli-bundle.zip
+*CNAME
+*get-pip.py
+*yarn-error.log
+*yarn.lock

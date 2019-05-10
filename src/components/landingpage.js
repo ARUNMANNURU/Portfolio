@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import logo from '/Users/ArunMannuru/Desktop/ReactPortfolio/react-portfolio/src/images/IMG_6275.jpg'
+import logo from './IMG_6275.jpg'
 
 class Landing extends Component {
   render() {
@@ -8,16 +8,14 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
-              src={logo}
-              alt="avatar"
-              className="avatar-img"/>
+              <img  src={logo}
+                    alt="avatar"
+                    className="avatar-img"/>
 
             <div className="banner-text">
               <h1>Full Stack Java Developer</h1>
             <hr/>
-
-          <p>JAVA | HTML/CSS | Bootstrap | JavaScript | React | React Native | Spring | Oracle | Cassandra</p>
+            <p align="center">JAVA | HTML/CSS | Bootstrap | JavaScript | React | Azure | SpringBoot | Oracle | Cassandra</p>
 
         <div className="social-links">
 
@@ -42,7 +40,7 @@ class Landing extends Component {
           </a>
 
         </div>
-            </div>
+    </div>
           </Cell>
         </Grid>
       </div>
